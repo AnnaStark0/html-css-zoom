@@ -91,6 +91,32 @@ main {
 }
 
 
+
+/*FOOTER*/
+footer {
+    height: 70px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fsx {
+    background-color: lime;
+    width: 15%;
+}
+
+.fcntr {
+    background-color: steelblue;
+    width: 60%;
+}
+
+.fdx {
+    background-color: violet;
+    width: 15%;
+}
+
+
+
 /*SIMBOLI*/
 
 .fa-caret-left , .fa-caret-right {
