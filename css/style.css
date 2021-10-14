@@ -103,16 +103,47 @@ footer {
 .fsx {
     background-color: lime;
     width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
+
+.icona {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ic {
+    font-size: 30px;
+}
+
+.chevron {
+    color: white;
+}
+
+
 
 .fcntr {
     background-color: steelblue;
     width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
+
+
 
 .fdx {
     background-color: violet;
     width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
