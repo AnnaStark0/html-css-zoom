@@ -10,43 +10,56 @@ body {
 
 main {
     background-color: black;
-    height: 800px;
-    
+    height: 730px;
+}
+
+.up {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.speak {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(41, 40, 40);
+    border-radius: 5px;
 }
 
 .contenitore {
-    height: 800px;
+    height: 650px;
     display: flex;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    /*padding-top: 25px;
+    padding-bottom: 25px;*/
 }
 
 
 /*SINISTRA*/
 .sx {
-    background-color: deepskyblue;
+    /*background-color: deepskyblue;*/
     width: 8%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 /*CENTRO*/
 
 .centro {
-    background-color: lightseagreen;
+    /*background-color: lightseagreen;*/
     width: 84%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .box {
-    background-color: springgreen;
+    /*background-color: springgreen;*/
     width: calc(100% / 5);
     height: calc(100% / 5);
     border: 5px solid black;
-    
+
     background-position: center;
     background-size: cover;
     display: flex;
@@ -67,27 +80,28 @@ main {
 }
 
 .quattro {
-    background-image: url("../img/germanselfie.jpeg"); 
+    background-image: url("../img/germanselfie.jpeg");
 }
 
 .cinque {
-    background-image: url("../img/selfie1.jpeg"); 
+    background-image: url("../img/selfie1.jpeg");
 }
 
 .utente {
-    
+
     background-color: lightgrey;
 }
 
 
 /*DESTRA*/
 .dx {
-    background-color: mediumaquamarine;
+    /*background-color: mediumaquamarine;*/
     width: 8%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 
@@ -95,17 +109,18 @@ main {
 /*FOOTER*/
 footer {
     height: 70px;
-    background-color: grey;
+    background-color: rgb(41, 40, 40);
     display: flex;
     justify-content: space-between;
 }
 
 .fsx {
-    background-color: lime;
+    /*background-color: lime;*/
     width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 
 }
 
@@ -128,7 +143,7 @@ footer {
 
 
 .fcntr {
-    background-color: steelblue;
+    /*background-color: steelblue;*/
     width: 60%;
     display: flex;
     align-items: center;
@@ -139,24 +154,24 @@ footer {
 
 
 .fdx {
-    background-color: violet;
-    width: 15%;
+    background-color: rgb(94, 94, 94);
+    width: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: red;
 }
 
 
 
 /*SIMBOLI*/
 
-.fa-caret-left , .fa-caret-right {
+.fa-caret-left,
+.fa-caret-right {
     font-size: 60px;
 }
 
 
 
 /*DEBUG*/
-.debug main {
-    
-}
+.debug main {}
