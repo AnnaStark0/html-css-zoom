@@ -21,6 +21,8 @@ main {
     padding-bottom: 70px;
 }
 
+
+/*SINISTRA*/
 .sx {
     background-color: deepskyblue;
     width: 8%;
@@ -30,11 +32,55 @@ main {
     align-items: center;
 }
 
+/*CENTRO*/
+
 .centro {
     background-color: lightseagreen;
     width: 84%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.box {
+    background-color: springgreen;
+    width: calc(100% / 5);
+    height: calc(100% / 5);
+    border: 5px solid black;
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.uno {
+    background-image: url("../img/jackselfie.jpeg");
+}
+
+.due {
+    background-image: url("../img/dogselfie.jpeg");
+}
+
+.tre {
+    background-image: url("../img/huskyselfie.jpeg");
+}
+
+.quattro {
+    background-image: url("../img/germanselfie.jpeg"); 
+}
+
+.cinque {
+    background-image: url("../img/selfie1.jpeg"); 
+}
+
+.utente {
+    
+    background-color: lightgrey;
+}
+
+
+/*DESTRA*/
 .dx {
     background-color: mediumaquamarine;
     width: 8%;
